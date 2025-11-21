@@ -1,0 +1,7 @@
+order_id,sku,qty,price,discount_code,ship_date,customer_email,express
+1001,AB-1299,2,19.99,SPRING24,2025-03-01,alex@example.com,TRUE
+1002,AB-1300,1,9.5,,2025/03/02,sam@example.com,FALSE
+1003,CD-0075,10,4.00,SPRING2324,01-03-2025,pat@example,TRUE
+1004,CD-0076,3,4,SPRING24,2025-03-03,lee@example.com,true
+01005,EFX-88,5,12.5,,2025-03-04,riley@example.com,FALSE
+1006,AB-1301,0,0.00,SPRING24,2025-13-05,jordan@example.com,FALSE

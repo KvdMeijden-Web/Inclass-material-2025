@@ -1,0 +1,26 @@
+import random
+
+rps= ["rock", "paper", "scissors"]
+choice_computer = random.choice(rps)
+
+choice_user = input("Enter your choice (rock, paper, scissors):").lower()
+
+if choice_user == choice_computer:
+    print("It's a tie! Both chose", choice_user)
+if choice_user == "rock":
+    if choice_computer == "scissors":
+        print("You win! Rock crushes Scissors")
+    elif choice_computer == "paper":
+        print("You lose! Paper covers Rock")
+elif choice_user == "paper":
+    if choice_computer == "rock":
+        print("You win! Paper covers Rock")
+    elif choice_computer == "scissors":
+        print("You lose! Scissors cut Paper")
+elif choice_user:
+    if choice_computer == "paper":
+        print("You win! Scissors cut Paper")
+    elif choice_computer == "rock":
+        print("You lose! Rock crushes Scissors")
+if choice_user not in rps:
+    print("Invalid input! Please choose rock, paper, or scissors.")

@@ -1,0 +1,31 @@
+import random
+
+def rock_paper_scissors():
+    rps= ["rock", "paper", "scissors"]
+    choice_computer = random.choice(rps)
+
+    choice_user = input("Enter your choice (rock, paper, scissors):").lower()
+
+    if choice_user == choice_computer:
+        print("It's a tie! Both chose", choice_user)
+    if choice_user == "rock" and choice_computer == "scissors":
+        print("You win! Rock crushes Scissors")
+    if choice_user == "rock" and choice_computer == "paper":
+        print("You lose! Paper covers Rock")
+    if choice_user == "paper" and choice_computer == "rock":
+        print("You win! Paper covers Rock")
+    if choice_user == "paper" and choice_computer == "scissors":
+        print("You lose! Scissors cut Paper")
+    if choice_user == "scissors" and choice_computer == "paper":
+        print("You win! Scissors cut Paper")
+    if choice_user == "scissors" and choice_computer == "rock":
+        print("You lose! Rock crushes Scissors")
+    if choice_user not in rps:
+        print("Invalid input! Please choose rock, paper, or scissors.")
+
+
+    rock_paper_scissors()
+
+    random.randint()
+
+    def example_function():
