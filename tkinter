@@ -1,0 +1,22 @@
+from tkinter import *
+from tkinter import ttk
+
+screen = Tk()
+
+screen.title("Interface Example")
+
+Welcome = ttk.Label(screen, text="Welcome", font=("Arial", 16))
+Welcome.grid(column=1,row=0, padx=10, pady=10)
+
+label = ttk.Label(screen, text="Welcome to the Interface Example", font=("Arial", 16))
+label.grid(column=1,row=1, padx=10, pady=10)
+
+button = ttk.Button(screen, text="click me")
+button.grid(column=0, row=2, padx=10, pady=10)
+
+
+button = ttk.Button(screen, text="click me")
+button.grid(column=2, row=2, padx=10, pady=10)
+
+
+screen.mainloop()
