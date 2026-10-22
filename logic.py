@@ -4,8 +4,9 @@
 THICKNESS = 30
 
 def area_house(length, width, thickness):
-    Length +THICKNESS * with + THICKNESS = result
-
+    result = length +THICKNESS * width + THICKNESS
+    print(result)
+area_house(200,200,200)
 
 #1: Identify Variables (or conditions) and assign them boolean values
 #2: In you noteboot, write the logical expressions using and, or, and not

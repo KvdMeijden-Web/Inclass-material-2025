@@ -14,6 +14,9 @@
 ingredient = ["fries","mayonaise", "ketchup", "burger"]
 short = []
 long = []
+addFood = input("add a food")
+ingredient.append (addFood)
+
 for i in ingredient:
         lenght_word = len(i)
         if lenght_word <= 5:
@@ -22,3 +25,9 @@ for i in ingredient:
             long.append(i)
 print(short)
 print(long)
+
+
+
+
+# addWord = "Add a word"
+# ingredient.append(addWord)
